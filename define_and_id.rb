@@ -28,6 +28,11 @@
 #The return value is true
 
 12.even?
-
+#The even? method checks to see if the integer object is an even number.
+#No arguments were passed to the even? method?
+#The return value is true.
 
 18.next
+#the next method returns the successor of the integer object
+#no argument was passed to the next method
+#the return value is 19
