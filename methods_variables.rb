@@ -28,7 +28,7 @@ puts my_name.length
 user_name = "coco_11am"
 last_login = "12/09/2021"
 
-puts user_name.delete_prefix("user")
+puts user_name.delete_prefix("coco")
 
 #delete_prefix method will take the argument passed to it
 #and delete the prefix of the string object
@@ -37,11 +37,11 @@ puts user_name.replace("named_user")
 # the replace method will replace the contents of the string object
 #with the contents of the argument passed to it.
 
-puts user_name.concat ("Is", "Name")
+puts user_name.concat("Is")
 # the concat method links the arguments passed to the
 #string object and returns
 
-puts user_name.delete_prefix! ("name")
+puts user_name.delete_prefix!("Is")
 # the delete prefix! will return nil if the argument passed to it
 #is not the leading prefix in the string object
 
